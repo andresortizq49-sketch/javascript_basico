@@ -1,0 +1,18 @@
+Algoritmo convertir_pesos_a_dolares_euros
+	Definir pesos, dolares, euros, precioDolar, precioEuro como real
+	
+	precioDolar <- 3205
+	precioEuro <- 3711
+	
+	Escribir ' Hola, vamos a convertir pesos colombianos'
+	Escribir ' Por favor ingresa el valor en pesos colombianos:'
+	Leer pesos
+	
+	dolares <- pesos / precioDolar
+	euros <- pesos / precioEuro
+	
+	Escribir 'El valor que ingresaste es :' pesos
+	Escribir 'El valor ingresado, en dolares es:' dolares
+	Escribir 'El valor que ingresaste, en euros es:' euros
+	
+FinAlgoritmo

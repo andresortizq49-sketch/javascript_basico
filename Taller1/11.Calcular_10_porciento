@@ -1,0 +1,14 @@
+Algoritmo Calcular_10_porciento
+	
+	Definir valor, resultado como real
+	
+	Escribir 'Hola, vamos a calcular el 10 porciento de un valor'
+	Escribir 'Por favor ingresa el valor que quieres calcular:' 
+	Leer valor
+	
+	resultado <- valo * 10 / 100
+	
+	Escribir 'El valor que ingresaste fue:' valor
+	Escribir 'El 10 porciento de ese valor es:' resultado
+	
+FinAlgoritmo

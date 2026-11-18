@@ -1,0 +1,18 @@
+Algoritmo Area_Rombo
+	Definir dMen, dMay, aRmb Como Real
+	
+	Escribir 'Hola, ahora vamos a calcular el area de un rombo'
+	Escribir 'por favor ingresa la diagonal menor del rombo' 
+	leer dMen
+	
+	Escribir 'por favor ingresa ahora la diagonal mayor del rombo'
+	leer dMay
+	
+	aRmb<-( dMen * dMay) / 2
+	
+	Escribir 'La diagonal menor es' dMen
+	Escribir 'La diagonal mayor es' dMay
+	Escribir 'El area del rombo es' aRmb
+	
+	
+FinAlgoritmo

@@ -1,0 +1,38 @@
+Algoritmo suma_resta_multiplicacion_division
+	Definir valor1, valor2, valor3, valor4, valor5 Como Real
+	Escribir 'Vamos hacer prosedimiento de suma, resta, multiplicacion y division'
+	Escribir 'por favor escribe el valor1'
+	leer valor1
+	
+	Escribir 'por favor escribir el valor2'
+	leer valor2
+	
+	Escribir 'por favor escribir ahora el valor3'
+	leer valor3
+	
+	Escribir 'por favor escribir ahora el valor4'
+	leer valor4
+	
+	Escribir 'por favor escribir ahora el valor5'
+	leer valor5
+	
+	suma<-valor1+valor2+valor3+valor4+valor5
+	Escribir 'La suma de los 5 valores es:' suma
+	
+	resta1<-suma-valor1-valor2-valor3
+	Escribir 'Al restar los 3 primeros valores da como resultado:' resta1
+	
+    resta2<-suma-valor4-valor5
+	Escribir 'Al restar de los 2 ultimos valores es:' resta2
+	
+	multi<-resta1*resta2
+	Escribir 'La multiplicacion de ambos resultados es:' multi
+	si multi <> 0 Entonces
+
+	division<-suma / multi
+	Escribir 'La division final es:' division
+SiNo
+	Escribir 'No se puede dividir entre 0'
+	finsi
+
+FinAlgoritmo

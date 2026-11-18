@@ -1,0 +1,13 @@
+Algoritmo temperatura_en_grados_centigrados_a_grados_fahrenheit
+	Definir GC, GF Como Real
+	
+	Escribir 'Hola, vamos a pasar de grados centigrados a faherenheit'
+	Escribir 'Por favor ingresar la temperatura en grados centigrados:'
+	leer GC
+	
+	GF<-(GC * 9 / 5) + 32
+	
+	Escribir 'la temperatura en fahrenheit es:' GF
+	
+	
+FinAlgoritmo

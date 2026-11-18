@@ -1,0 +1,16 @@
+Algoritmo area_de_rectangulo
+	Definir b,h, aR Como Real
+	Escribir 'Hola, vamos a calcular el area de un rectangulo'
+	
+	Escribir 'Por favor ingresa la base del rectangulo'
+	leer b
+	
+	Escribir 'Por favor ingrese la altura de un rectangulo'
+	leer h
+	
+	aR<- B * H
+	Escribir 'La base es:' b
+	Escribir 'La altura es:' h
+	Escribir 'El area del rectangulo es:' aR
+	
+FinAlgoritmo

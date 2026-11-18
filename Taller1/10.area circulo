@@ -1,0 +1,15 @@
+Algoritmo Area_circulo
+	Definir r, aCirl Como Real
+	
+	Escribir 'Hola, vamos a calcular el area de un circulo'
+	Escribir 'por favor ingresa el radio del circulo'
+	leer r
+	
+	aCirl<-pi * r * r
+	
+	
+	Escribir 'el valor de pi es' pi
+	Escribir 'El radio es' r
+	Escribir 'El area del circulo es' aCirl
+	
+FinAlgoritmo
